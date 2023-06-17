@@ -1,0 +1,7 @@
+<resources>
+    <fonts>
+        <font id="sm_dune_rise" filename="resource/fonts/dune_rise_sm.fnt" antialias="true" />
+        <font id="ty_dune_rise" filename="resource/fonts/dune_rise_sm.fnt" antialias="true" />
+        <font id="big_dune_rise" filename="resource/fonts/big_dune_rise.fnt" antialias="true" filter="0123456789:- " />
+    </fonts>
+</resources>

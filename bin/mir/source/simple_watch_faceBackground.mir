@@ -1,0 +1,43 @@
+[ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 6; ]
+class Background extends WatchUi.Drawable{
+    [ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 8; ]
+    function initialize() as Void {
+E_garmin_watchface_simple_watch_face_source_simple_watch_faceBackground_mc_8_26_start:
+[ "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc" 9 8 ]
+        [ "E_garmin_watchface_simple_watch_face_source_simple_watch_faceBackground_mc_8_26_start" "E_garmin_watchface_simple_watch_face_source_simple_watch_faceBackground_mc_8_26_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc" 13 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+E_garmin_watchface_simple_watch_face_source_simple_watch_faceBackground_mc_8_26_stop:
+    }
+    [ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 16; ]
+    function draw(dc as Dc) as Void {
+    }
+}
+[ @file = "E:\garmin\watchface\simple_watch_face\source\simple_watch_faceBackground.mc"; @line = 1; ]
+<init> {
+}

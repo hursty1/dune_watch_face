@@ -1,0 +1,5 @@
+<layout id="WatchFace">
+    <!-- <drawable class="Background" /> -->
+    <!-- <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" /> -->
+    <label id="HeartRate" x="75%" y="75%" font="@Fonts.ty_dune_rise" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xc8793c" />
+</layout>
