@@ -13,6 +13,7 @@ module Rez {
         (:initialized) var sm_dune_rise as Symbol;
         (:initialized) var ty_dune_rise as Symbol;
         (:initialized) var big_dune_rise as Symbol;
+        (:initialized) var garmin_icons as Symbol;
     } // Fonts
 
     module JsonData {
@@ -20,10 +21,13 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var local_Rez_Fonts_ty_dune_rise = (WatchUi.loadResource($.Rez.Fonts.ty_dune_rise) as Graphics.FontReference);
-            var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>0xc8793c, :locX=>(416 * (75 / 100.0)), :locY=>(416 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_ty_dune_rise});
+            var local_Rez_Fonts_sm_dune_rise = (WatchUi.loadResource($.Rez.Fonts.sm_dune_rise) as Graphics.FontReference);
+            var local_Rez_Fonts_garmin_icons = (WatchUi.loadResource($.Rez.Fonts.garmin_icons) as Graphics.FontReference);
+            var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>0xc8793c, :locX=>(416 * (55 / 100.0)), :locY=>(416 * (80 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_sm_dune_rise});
 
-            return [rez_cmp_local_text_HeartRate] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_HeartRateIcon = new WatchUi.Text({:identifier=>"HeartRateIcon", :color=>0xc8793c, :locX=>(416 * (43 / 100.0)), :locY=>(416 * (79 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_garmin_icons});
+
+            return [rez_cmp_local_text_HeartRate, rez_cmp_local_text_HeartRateIcon] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -34,11 +38,12 @@ module Rez {
         (:initialized) var ColorLightGray as Symbol;
         (:initialized) var ColorBlue as Symbol;
         (:initialized) var ColorRed as Symbol;
-        (:initialized) var ForegroundColorTitle as Symbol;
-        (:initialized) var BackgroundColorTitle as Symbol;
+        (:initialized) var ColorSand as Symbol;
         (:initialized) var ColorDarkGray as Symbol;
+        (:initialized) var PrimaryColor as Symbol;
         (:initialized) var MilitaryFormatTitle as Symbol;
         (:initialized) var ColorBlack as Symbol;
+        (:initialized) var SecondaryColorTitle as Symbol;
         (:initialized) var ColorWhite as Symbol;
         (:initialized) var AppName as Symbol;
     } // Strings
