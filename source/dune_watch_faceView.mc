@@ -71,10 +71,10 @@ class dune_watch_faceView extends WatchUi.WatchFace {
         } else {
             heartRate = "--";
         }
-        // System.println( "Heart Rate: " + heartRate);
         var view = View.findDrawableById("HeartRate") as Text;
         view.setText(heartRate);
         view.setColor(_secondary_color);
+        
         var viewIcon = View.findDrawableById("HeartRateIcon") as Text;
         viewIcon.setText("m");
         viewIcon.setColor(_secondary_color);
@@ -83,20 +83,22 @@ class dune_watch_faceView extends WatchUi.WatchFace {
         var timeFormat = "$1$ $2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+        
         if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
             }
-        } else {
+        } 
+        else {
             if (Properties.getValue("UseMilitaryFormat")){
                 timeFormat = "$1$ $2$";
                 hours = hours.format("%02d");
             }
-
         }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
+        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
         var font = _font;
+        
         if (font != null){
             dc.setColor(_primary_color, Graphics.COLOR_TRANSPARENT);
             dc.drawText(
@@ -107,14 +109,12 @@ class dune_watch_faceView extends WatchUi.WatchFace {
                 Graphics.TEXT_JUSTIFY_CENTER);
         }
 
-
         drawDateString(dc, _width/ 2, _height/ 2 + 44);
         if (_partialUpdatesAllowed) {
             // If this device supports partial updates and they are currently
             // allowed run the onPartialUpdate method to draw the second hand.
             onPartialUpdate(dc);
         } else if (_isAwake) {
-            // System.println( "Seconds: " + clockTime.sec);
             drawSecondArc(dc, clockTime.sec);
         }
     }
