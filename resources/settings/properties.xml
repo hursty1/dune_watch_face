@@ -3,5 +3,6 @@
     <property id="PrimaryColor" type="number">0xFFFFFF</property>
     <property id="SecondaryColor" type="number">0xc8793c</property>
     <property id="UseMilitaryFormat" type="boolean">false</property>
-
+    <property id="UseSecondsCircle" type="boolean">true</property> 
+    <property id="UseBoldFont" type="boolean">false</property>
 </properties>

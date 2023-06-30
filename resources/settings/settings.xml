@@ -3,17 +3,17 @@
     <setting propertyKey="@Properties.PrimaryColor" title="@Strings.PrimaryColor">
         <settingConfig type="list">
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0xc8793c">@Strings.ColorSand</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
             <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
-            <listEntry value="0xc8793c">@Strings.ColorSand</listEntry>
         </settingConfig>
     </setting>
 
     <setting propertyKey="@Properties.SecondaryColor" title="@Strings.SecondaryColorTitle">
         <settingConfig type="list">
             <listEntry value="0xc8793c">@Strings.ColorSand</listEntry>
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <!-- <listEntry value="0x000000">@Strings.ColorBlack</listEntry> -->
             <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
@@ -23,5 +23,10 @@
     <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
         <settingConfig type="boolean" />
     </setting>
-
+    <setting propertyKey="@Properties.UseSecondsCircle" title="@Strings.UseSecondsCircle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.UseBoldFont" title="@Strings.UseBoldFont">
+        <settingConfig type="boolean" />
+    </setting>
 </settings>

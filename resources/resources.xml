@@ -1,8 +1,8 @@
 <resources>
     <fonts>
-        <font id="sm_dune_rise" filename="resource/fonts/dune_rise_sm.fnt" antialias="true" />
-        <font id="ty_dune_rise" filename="resource/fonts/dune_rise_tiny.fnt" antialias="true" />
-        <font id="big_dune_rise" filename="resource/fonts/big_dune_rise.fnt" antialias="true" filter="0123456789:- " />
-        <font id="garmin_icons" filename="resource/fonts/garmin_icons_1.fnt" antialias="true" />
+        <font id="dune_rise_text" filename="resources/fonts/dune_rise_text.fnt" antialias="true" />
+        <font id="dune_rise_text_bold" filename="resources/fonts/dune_rise_text_bold.fnt" antialias="true" />
+        <font id="dune_rise" filename="resources/fonts/dune_rise_numbers.fnt" antialias="true" filter="0123456789:- " />
+        <font id="garmin_icons" filename="resources/fonts/garmin_icons.fnt" antialias="true" />
     </fonts>
 </resources>

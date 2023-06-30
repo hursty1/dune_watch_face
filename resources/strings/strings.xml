@@ -5,7 +5,8 @@
     <string id="PrimaryColor">Primary Color</string>
     <string id="SecondaryColorTitle">Secondary Color</string>
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
-
+    <string id="UseBoldFont">Use Bold Font for Date String</string>
+    <string id="UseSecondsCircle">Display Seconds hand?</string>
     <string id="ColorBlack">Black</string>
     <string id="ColorDarkGray">Dark Gray</string>
     <string id="ColorLightGray">Light Gray</string>

@@ -1,6 +1,6 @@
 <layout id="WatchFace">
     <!-- <drawable class="Background" /> -->
     <!-- <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" /> -->
-    <label id="HeartRate" x="55%" y="80%" font="@Fonts.sm_dune_rise" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xc8793c" />
+    <label id="HeartRate" x="55%" y="80%" font="@Fonts.dune_rise_text" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xc8793c" />
     <label id="HeartRateIcon" x="43%" y="79%" font="@Fonts.garmin_icons" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xc8793c" />
 </layout>
