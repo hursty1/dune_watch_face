@@ -10,3 +10,5 @@ fonts are created using the bitmap font generator
 numbers are by default: 92 size
 text is 32 size
 bold is 32 size with outline of 1 and export settings of A:outline 
+
+![Screenshot](cover_image.png)
