@@ -89,8 +89,12 @@ class dune_watch_faceView extends WatchUi.WatchFace {
         view.setColor(_secondary_color);
 
         var viewIcon = View.findDrawableById("HeartRateIcon") as Text;
-        
-        viewIcon.setText("m");
+
+        var heartRateIconCode = 0x006D;
+        // var heartRateiconString = Lang.fromCodePoint(heartRateIconCode);
+
+
+        viewIcon.setText(heartRateIconCode.toChar().toString());
         viewIcon.setColor(_secondary_color);
         
         View.onUpdate(dc); //update the layout.xml file
