@@ -6,6 +6,8 @@
     <string id="SecondaryColorTitle">Secondary Color</string>
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
     <string id="UseBoldFont">Use Bold Font for Date String</string>
+    <string id="DisplayIcons">Display Icons</string>
+
     <string id="UseSecondsCircle">Display Seconds hand?</string>
     <string id="ColorBlack">Black</string>
     <string id="ColorDarkGray">Dark Gray</string>
@@ -14,5 +16,9 @@
     <string id="ColorBlue">Blue</string>
     <string id="ColorRed">Red</string>
     <string id="ColorSand">Sand</string>
+    <string id="BottomComplication">Choose Bottom Complication</string>
+    <string id="Steps">Steps</string>
+    <string id="heartRate">Heart Rate</string>
+    <string id="ShowBattery">Show Battery</string>
 
 </strings>

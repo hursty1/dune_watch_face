@@ -29,4 +29,17 @@
     <setting propertyKey="@Properties.UseBoldFont" title="@Strings.UseBoldFont">
         <settingConfig type="boolean" />
     </setting>
+
+    <setting propertyKey="@Properties.DisplayIcons" title="@Strings.DisplayIcons">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.BottomComplication" title="@Strings.BottomComplication">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.heartRate</listEntry>
+            <listEntry value="2">@Strings.Steps</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ShowBattery" title="@Strings.ShowBattery">
+        <settingConfig type="boolean" />
+    </setting>
 </settings>

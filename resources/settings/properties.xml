@@ -5,4 +5,7 @@
     <property id="UseMilitaryFormat" type="boolean">false</property>
     <property id="UseSecondsCircle" type="boolean">true</property> 
     <property id="UseBoldFont" type="boolean">false</property>
+    <property id="DisplayIcons" type="boolean">true</property>
+    <property id="BottomComplication" type="number">1</property>
+    <property id="ShowBattery" type="boolean">false</property>
 </properties>
